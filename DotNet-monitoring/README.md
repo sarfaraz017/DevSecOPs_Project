@@ -172,15 +172,3 @@ For a quick deployment, use `make deploy` which will create a resource group, th
 
 ```bash
 make deploy
-```
-
-> Note. Azure Container App doesn't currently support HTTP header forwarding, so Azure AD sign-in will not work as it mis-redirects to the wrong URL
-
-# Updates
-
-- Nov 2021 - Large scale rewrite to .NET 6
-- Mar 2021 - Update to deployment, added dummy unit tests and makefile
-- Nov 2020 - Updated to .NET 5
-- Nov 2020 - New GitHub pipelines & container registry
-- Jun 2020 - Moved to NuGet for the Microsoft.Identity.Web
-- Jan 2020 - Rewritten from scratch
